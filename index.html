@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="uh_qRKoUqVgMkwLGZmMpjY6IbVmjwJ7n524yOEzpdk0" />
+    <meta name="Keywords" content="Кафе Ачхой - Мартан, кафе, кафетерий, Ruh, Ruh - кафе, заказать еду Ачхой,Заказать еду,Ресторан, купить еду,десерты ачхой,кафетерия ачхой, десерты,"> 
+</head>
+<body>
+    
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+     window.addEventListener('load', function() {  
+       navigator.serviceWorker.register('/sw.js').then(
+         function(registration) {
+           // Registration was successful
+           console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+         function(err) {
+           // registration failed :(
+           console.log('ServiceWorker registration failed: ', err);
+         });
+     });
+    }
+    </script>
+</html>
